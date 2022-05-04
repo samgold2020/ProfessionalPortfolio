@@ -11,6 +11,7 @@ import redux from "./images/redux.svg"
 import graphql from "./images/graphql.svg"
 import steak from "./images/steak.png"
 import spotify from "./images/spotify.png"
+import sass from "./images/sass.svg"
 
 // Social Icon
 import githubIcon from "./images/github.svg"
@@ -45,6 +46,7 @@ export default {
       imageSrc: spotify,
       //Project URL - Add Your Project Url Here
       url: "http://chetanverma.com/",
+      // languages: [reactIcon, bootstrap],
     },
     {
       title: "921 Steak", //Project Title - Add Your Project Title Here
@@ -54,16 +56,18 @@ export default {
       imageSrc: steak,
       //Project URL - Add Your Project Url Here
       url: "https://www.921steak.com/",
+      // languages: [reactIcon, bootstrap],
     },
-    {
-      title: "Project Three", //Project Title - Add Your Project Title Here
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc: spotify,
-      //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
-    },
+    // {
+    //   title: "Project Three", //Project Title - Add Your Project Title Here
+    //   para:
+    //     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+    //   //Project Image - Add Your Project Image Here
+    //   imageSrc: spotify,
+    //   //Project URL - Add Your Project Url Here
+    //   url: "http://chetanverma.com/",
+    //   // languages: [reactIcon, bootstrap],
+    // },
 
     /*
     If You Want To Add More Project just Copy and Paste This At The End
@@ -109,19 +113,22 @@ export default {
       img: reactIcon,
     },
     {
+      img: redux,
+    },
+    {
       img: aws,
+    },
+    {
+      img: graphql,
     },
     {
       img: bootstrap,
     },
     {
+      img: sass,
+    },
+    {
       img: git,
-    },
-    {
-      img: redux,
-    },
-    {
-      img: graphql,
     },
   ],
 
