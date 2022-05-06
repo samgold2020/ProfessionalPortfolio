@@ -9,6 +9,7 @@ const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
           "linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.2)),url(" +
           imgUrl +
           ")",
+        borderRadius: "15px",
       }}
     >
       <div className="content">
@@ -19,6 +20,7 @@ const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
           target="_blank"
           rel="noopener noreferrer"
           className="btn"
+          style={{ borderRadius: "5px" }}
         >
           Explore
         </a>
