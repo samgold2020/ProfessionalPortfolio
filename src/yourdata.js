@@ -12,6 +12,7 @@ import graphql from "./images/graphql.svg"
 import steak from "./images/steak.png"
 import spotify from "./images/spotify.png"
 import sass from "./images/sass.svg"
+import selfie from "./images/selfie.jpg"
 
 // Social Icon
 import githubIcon from "./images/github.svg"
@@ -29,7 +30,7 @@ export default {
   ],
   //   Header Paragraph
   headerParagraph:
-    "I am a frontend developer with proven experience building web and mobile applications with React and React Native.",
+    "Experienced building web and mobile applications with React and React Native.",
 
   //Contact Email
   // contactEmail: "hello@chetanverma.com",
@@ -41,7 +42,7 @@ export default {
     {
       title: "Spotify Tops", //Project Title - Add Your Project Title Here
       para:
-        "If you are sick of waiting for your year in review this is the site for you! Discover your current most beloved songs and artists according to your most recent listening history.", // Add Your Service Type Here
+        "Sick of waiting for your year in review? This is the site for you! Discover your current most beloved songs and artists according to your most recent listening history.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc: spotify,
       //Project URL - Add Your Project Url Here
@@ -58,26 +59,6 @@ export default {
       url: "https://www.921steak.com/",
       // languages: [reactIcon, bootstrap],
     },
-    // {
-    //   title: "Project Three", //Project Title - Add Your Project Title Here
-    //   para:
-    //     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-    //   //Project Image - Add Your Project Image Here
-    //   imageSrc: spotify,
-    //   //Project URL - Add Your Project Url Here
-    //   url: "http://chetanverma.com/",
-    //   // languages: [reactIcon, bootstrap],
-    // },
-
-    /*
-    If You Want To Add More Project just Copy and Paste This At The End
-    ,{
-        title: 'Project Five',
-        para: 'Something Amazing',
-        imageSrc: "",
-        url: ''
-    }
-    */
   ],
 
   // End Work Section -----------------------
@@ -87,8 +68,7 @@ export default {
     "Since graduating from General Assembly's fullstack bootcamp in 2021 I have been earning my stripes as a Front End Software Engineer at Red Foundry, a consultancy where we pride ourselves in exceeding the expectations of our clients. Currently, I am studying to earn the Certified Developer Associate Certification so as to be a go-to resource for implimenting AWS solution, something I assist with currently in my day to day role. ",
   aboutParaTwo:
     "In my free time you can find me jamming out on the drumset, biking the lakefront path, or grilling out in the backyard with friends and family.",
-  aboutImage:
-    "https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+  aboutImage: selfie,
 
   //   End About Section ---------------------
 
@@ -127,9 +107,9 @@ export default {
     {
       img: sass,
     },
-    {
-      img: git,
-    },
+    // {
+    //   img: git,
+    // },
   ],
 
   // End Skills Section --------------------------
