@@ -1,5 +1,7 @@
 import React from "react"
+
 import Fade from "react-reveal/Fade"
+
 import data from "../yourdata"
 
 const About = () => {
@@ -19,7 +21,13 @@ const About = () => {
             </p>
           </div>
           <div className="image-wrapper">
-            <img src={data.aboutImage} alt="about"></img>
+            <img
+              src={data.aboutImage}
+              alt="about"
+              style={{
+                borderRadius: "15px",
+              }}
+            />
           </div>
         </div>
       </div>

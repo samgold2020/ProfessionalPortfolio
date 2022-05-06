@@ -1,5 +1,6 @@
 .about-section {
-  width: 80vw;
+  // background-color: green;
+  width: 70vw;
   margin-top: 10vh;
   display: flex;
   justify-content: space-between;
@@ -24,7 +25,6 @@
     @include media(">=tablet", "<desktop") {
       width: 100%;
     }
-
     h1 {
       font-size: 3rem;
       line-height: 20px;
@@ -52,6 +52,10 @@
     }
     @include media(">=tablet", "<desktop") {
       width: 100%;
+    }
+    .test {
+      max-width: "10%";
+      min-width: "5%";
     }
   }
 }
